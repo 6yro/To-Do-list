@@ -1,0 +1,13 @@
+ul {
+  user-select: none;
+}
+.crossed {
+  text-decoration: line-through;
+}
+.delete-btn {
+  background-color: #fff;
+}
+.header__btns {
+  display: none;
+  user-select: none;
+}
