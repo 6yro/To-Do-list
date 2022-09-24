@@ -1,9 +1,9 @@
 const input = document.querySelector("input");
+const chooseAll = document.querySelector(".header__choose-all-btn");
 const headerBtns = document.querySelector(".header__btns");
 const inputBtn = document.querySelector(".input-block__btn");
 const ul = document.querySelector("ul");
-const chooseAll = document.querySelector(".header__choose-all-btn");
-
+// choose all
 chooseAll.addEventListener("click", (e) => {
   let checkboxes = document.querySelectorAll(".checkbox");
   for (let i = 0; i < checkboxes.length; i++) {
@@ -13,7 +13,6 @@ chooseAll.addEventListener("click", (e) => {
     }
   }
 });
-
 // headerbtns
 headerBtns.addEventListener("click", (e) => {
   let checkboxes = document.querySelectorAll(".checkbox");
